@@ -3,6 +3,7 @@ from loguru import logger
 from util import get_tables, load_db_details
 from read import read_table
 from write import load_table
+#git remote add origin https://<GITHUB_ACCESS_TOKEN>@github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>.git
 
 def main():
     env = sys.argv[1]
